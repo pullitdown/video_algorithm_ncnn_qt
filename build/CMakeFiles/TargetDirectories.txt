@@ -1,4 +1,0 @@
-/home/stepf/world/video_algorithm_ncnn_qt/build/CMakeFiles/rebuild_cache.dir
-/home/stepf/world/video_algorithm_ncnn_qt/build/CMakeFiles/edit_cache.dir
-/home/stepf/world/video_algorithm_ncnn_qt/build/CMakeFiles/video_algorithm_ncnn_qt.dir
-/home/stepf/world/video_algorithm_ncnn_qt/build/CMakeFiles/video_algorithm_ncnn_qt_autogen.dir
