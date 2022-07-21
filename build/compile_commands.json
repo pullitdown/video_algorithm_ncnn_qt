@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Ivideo_algorithm_ncnn_qt_autogen/include -isystem /usr/local/include/opencv -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/video_algorithm_ncnn_qt.dir/video_algorithm_ncnn_qt_autogen/mocs_compilation.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/video_algorithm_ncnn_qt_autogen/mocs_compilation.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/video_algorithm_ncnn_qt_autogen/mocs_compilation.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Ivideo_algorithm_ncnn_qt_autogen/include -isystem /usr/local/include/opencv -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/video_algorithm_ncnn_qt.dir/src/main.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/src/main.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/src/main.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Ivideo_algorithm_ncnn_qt_autogen/include -isystem /usr/local/include/opencv -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/video_algorithm_ncnn_qt.dir/src/my_widget.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/src/my_widget.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/src/my_widget.cpp"
+}
+]

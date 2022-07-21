@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main_widget</class>
+ <widget class="QWidget" name="main_widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>735</width>
+    <height>896</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>19</x>
+     <y>19</y>
+     <width>521</width>
+     <height>861</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="img_layout">
+    <item>
+     <widget class="QLabel" name="first_img">
+      <property name="text">
+       <string>video closed</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="second_img">
+      <property name="text">
+       <string>video closed</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>20</y>
+     <width>161</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="button_layout">
+    <item>
+     <widget class="QToolButton" name="open_camera_bt">
+      <property name="text">
+       <string>open camera</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="face_detectiom_bt">
+      <property name="text">
+       <string>face detection</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="background_blurring_bt">
+      <property name="text">
+       <string>background blurring</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="camera_stabilization_bt">
+      <property name="text">
+       <string>camera stabilization</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="facial_beautification_bt">
+      <property name="text">
+       <string>facial beautification</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>630</y>
+     <width>161</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="fps_lb">
+      <property name="text">
+       <string>fps:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="opms_lb">
+      <property name="text">
+       <string>op_ms:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="opname_lb">
+      <property name="text">
+       <string>op_name:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>verticalLayoutWidget_2</zorder>
+  <zorder>verticalLayoutWidget_3</zorder>
+  <zorder>opname_lb</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

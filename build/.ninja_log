@@ -1,0 +1,13 @@
+# ninja log v5
+2425	3120	1658392350780650272	video_algorithm_ncnn_qt	d2e8f4cafa6b5609
+1	79	1658392419032654139	build.ninja	babb4b48eda6e1c
+19	2425	1658392350088650122	CMakeFiles/video_algorithm_ncnn_qt.dir/src/my_widget.cpp.o	d3a4590d98dd85c2
+18	2248	1658392349912650083	CMakeFiles/video_algorithm_ncnn_qt.dir/video_algorithm_ncnn_qt_autogen/mocs_compilation.cpp.o	14f667d0045b2755
+19	2234	1658392349896650080	CMakeFiles/video_algorithm_ncnn_qt.dir/src/main.cpp.o	aaee6dcd9ee2f015
+1	17	0	video_algorithm_ncnn_qt_autogen/mocs_compilation.cpp	b9cee0c8ccb33fde
+1	17	0	CMakeFiles/video_algorithm_ncnn_qt_autogen	b9cee0c8ccb33fde
+0	69	1658392591752580684	build.ninja	babb4b48eda6e1c
+1	18	0	CMakeFiles/video_algorithm_ncnn_qt_autogen	b9cee0c8ccb33fde
+1	18	0	video_algorithm_ncnn_qt_autogen/mocs_compilation.cpp	b9cee0c8ccb33fde
+2	19	0	CMakeFiles/video_algorithm_ncnn_qt_autogen	b9cee0c8ccb33fde
+2	19	0	video_algorithm_ncnn_qt_autogen/mocs_compilation.cpp	b9cee0c8ccb33fde

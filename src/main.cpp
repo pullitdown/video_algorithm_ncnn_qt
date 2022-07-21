@@ -1,10 +1,9 @@
 #include <QApplication>
 #include <QDebug>
-#include "mainwindow.h"
+#include "my_widget.h"
 int main(int argc, char **argv) {
-    QApplication app(argc, argv);
-    MainWindow m;
-    m.show();
-    qDebug() << "hello vs qt";
-    return app.exec();
+    QApplication a(argc, argv);    //main GUI window
+    my_widget mw;
+    mw.show();
+    return a.exec();
 }
