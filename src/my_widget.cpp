@@ -32,22 +32,71 @@
 
 my_widget::my_widget(QWidget *parent):QMainWindow(parent){
     this->ui=new Ui::main_widget();
-    this->tiktok=new QTimer(this);
+    this->time_count=new QTime();
+
     ui->setupUi(this);
     this->camera_is_open=0;
-
-
-    connect(this->tiktok, SIGNAL(timeout()), this, SLOT(capPicture()));
-    connect(this->ui->open_camera_bt,SIGNAL(clicked),this,SLOT(on_open_camera_bt_clicked));
-    // connect(this->ui->face_detectiom_bt,SIGNAL(clicked),SLOT(on_face_detectiom_bt_clicked));
+    this->ms=10;
+    this->func_num=5;
+    for(int i=0;i<this->func_num;i++)this->tiktok[i]=new QTimer(this);
+    connect(this->tiktok[0], SIGNAL(timeout()), this, SLOT(capPicture()));
+    connect(this->ui->open_camera_bt,SIGNAL(clicked()),this,SLOT(on_open_camera_bt_clicked()));
+    connect(this->tiktok[1], SIGNAL(timeout()), this, SLOT(capDetect()));
+    connect(this->ui->face_detectiom_bt,SIGNAL(clicked()),SLOT(on_face_detectiom_bt_clicked()));
     // connect(this->ui->background_blurring_bt,SIGNAL(clicked),SLOT(on_background_blurring_bt_clicked));
     // connect(this->ui->camera_stabilization_bt,SIGNAL(clicked),SLOT(on_camera_stabilization_bt_clicked));
     // connect(this->ui->facial_beautification_bt,SIGNAL(clicked),SLOT(on_facial_beautification_bt_clicked));
 }
 
 
+
+void my_widget::capDetect(){
+    if(this->camera_is_open==0)this->tiktok[1]->stop();
+    
+    this->cap.read(this->current_img);
+    std::vector<Object> objs;
+    std::string path="/home/stepf/world/video_algorithm_ncnn_qt/param/";
+    time_count->start();
+    detect_yolov5(this->current_img,objs,path);
+    this->operate_img=this->current_img.clone();
+    draw_objects(this->operate_img,objs);
+    this->ms=time_count->elapsed();
+    qobject_cast<QLabel *>(this->ui->img_layout->itemAt(0)->widget())->setPixmap
+         (QPixmap::fromImage(Mat2Image(this->current_img)));
+    qobject_cast<QLabel *>(this->ui->img_layout->itemAt(1)->widget())->setPixmap
+         (QPixmap::fromImage(Mat2Image(this->operate_img))); 
+    this->ui->fps_lb->setText("fps:"+QString::number(1000/this->ms));
+    this->ui->opms_lb->setText("op_ms:"+QString::number(this->ms));
+    this->ui->opname_lb->setText("op_name: detect face");
+}
+
+void my_widget::on_face_detectiom_bt_clicked(){
+
+    /***
+     * 1.click the botton, compute the time detect algorithm need and start a qtimer
+     * 2.set the bt text to close detect  op name
+     * 3.show the op run time  , fps equels
+     * 4.click again to close the op
+     * ***/
+
+    if(this->camera_is_open==1)
+    {
+        std::cout<<"wtf"<<std::endl;
+        for(int i=0;i<this->func_num;i++)if(this->tiktok[i]->isActive())this->tiktok[i]->stop();
+        QTimer::singleShot(10, this,SLOT(capDetect()));
+        
+        this->tiktok[1]->start(this->ms);
+    }
+    else{
+        //QMessageBox::information(this,tr("warming"),tr("camera close , detect faild."));
+    }
+    
+}
+
 void my_widget::capPicture(){
+    
     if(this->camera_is_open==1){
+        
         this->cap.read(this->current_img);
         qobject_cast<QLabel *>(this->ui->img_layout->itemAt(0)->widget())->setPixmap
         (QPixmap::fromImage(Mat2Image(this->current_img)));
@@ -62,23 +111,22 @@ void my_widget::capPicture(){
 
 void my_widget::on_open_camera_bt_clicked()
 {
+    
     if(this->camera_is_open==0)
     {
         this->camera_is_open=1;
         qobject_cast<QToolButton *>(ui->button_layout->itemAt(0)->widget())->setText("close camera");
         //  camera->start();//启动摄像头
-        this->cap.open(0);
+        this->cap.open(0,cv::CAP_V4L2 );
         int fps = cap.get(cv::CAP_PROP_FPS);
         if(!cap.isOpened()) {
             std::cout<<"cannot open camera"<<std::endl;
             return;
         }
-        this->ms=10;
-        this->tiktok->start(this->ms);
-        std::cout<<this->tiktok->isActive()<<" "<<this->tiktok->remainingTime()<<std::endl;
+        this->tiktok[0]->start(this->ms);
     }
     else{
-        this->tiktok->stop();
+        this->tiktok[0]->stop();
         this->cap.release();
         qobject_cast<QLabel *>(this->ui->img_layout->itemAt(0)->widget())->setText("video closed");
         qobject_cast<QToolButton *>(this->ui->button_layout->itemAt(0)->widget())->setText("open camera");

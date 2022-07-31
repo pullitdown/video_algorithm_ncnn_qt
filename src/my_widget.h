@@ -9,8 +9,11 @@
 #include <QDebug>
 #include <unistd.h>
 #include <QLabel>
+#include<QMessageBox>
 #include <QDateTime>
 #include<QTimer>
+#include"yolov5_pnnx.h"
+
 
 /***
  * QWidget *verticalLayoutWidget;
@@ -32,24 +35,32 @@ class my_widget:public QMainWindow
 
 public:
     explicit my_widget(QWidget *parent=Q_NULLPTR);
-    //~my_widget(){delete ui;};
+    ~my_widget(){delete ui;for(int i=0;i<this->func_num;i++)delete this->tiktok[i];};
     cv::Mat Image2Mat(QImage image);
     QImage Mat2Image(cv::Mat mat);
 
 private slots:
     void on_open_camera_bt_clicked();
     void capPicture();
-    // void on_face_detectiom_bt_clicked();
-    // void on_background_blurring_bt_clicked();
-    // void on_camera_stabilization_bt_clicked();
-    // void on_facial_beautification_bt_clicked();
     
+    void on_face_detectiom_bt_clicked();
+    void capDetect();
+    // void on_background_blurring_bt_clicked();
+    // void capBlur();
+    // void on_camera_stabilization_bt_clicked();
+    // void capStabily()
+    // void on_facial_beautification_bt_clicked();
+    // void capBeautify();
 private:
     bool camera_is_open;
     Ui::main_widget *ui;
-    QTimer *tiktok;
+    QTimer* (tiktok)[5];
+    int func_num;
     cv::VideoCapture cap;
+    cv::VideoCapture colorStream;
+    cv::VideoCapture depthStream;
     cv::Mat current_img;
+    cv::Mat operate_img;
     int ms;
-    QTimer *time_count;
+    QTime *time_count;
 };

@@ -110,7 +110,7 @@ public:
 
         retranslateUi(main_widget);
 
-        QMetaObject::connectSlotsByName(main_widget);
+        //QMetaObject::connectSlotsByName(main_widget);
     } // setupUi
 
     void retranslateUi(QWidget *main_widget)
