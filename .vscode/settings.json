@@ -69,6 +69,9 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "qtimer": "cpp",
-        "qlabel": "cpp"
+        "qlabel": "cpp",
+        "forward_list": "cpp",
+        "valarray": "cpp",
+        "codecvt": "cpp"
     }
 }

@@ -1,28 +1,13 @@
-// Tencent is pleased to support the open source community by making ncnn available.
-//
-// Copyright (C) 2022 THL A29 Limited, a Tencent company. All rights reserved.
-//
-// Licensed under the BSD 3-Clause License (the "License"); you may not use this file except
-// in compliance with the License. You may obtain a copy of the License at
-//
-// https://opensource.org/licenses/BSD-3-Clause
-//
-// Unless required by applicable law or agreed to in writing, software distributed
-// under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-// CONDITIONS OF ANY KIND, either express or implied. See the License for the
-// specific language governing permissions and limitations under the License.
 
 #include "yolov5_pnnx.h"
 
-
-
-float intersection_area(const Object& a, const Object& b)
+float intersection_area(const Object_yolov5s& a, const Object_yolov5s& b)
 {
     cv::Rect_<float> inter = a.rect & b.rect;
     return inter.area();
 }
 
-void qsort_descent_inplace(std::vector<Object>& faceobjects, int left, int right)
+void qsort_descent_inplace(std::vector<Object_yolov5s>& faceobjects, int left, int right)
 {
     int i = left;
     int j = right;
@@ -59,7 +44,7 @@ void qsort_descent_inplace(std::vector<Object>& faceobjects, int left, int right
     }
 }
 
-void qsort_descent_inplace(std::vector<Object>& faceobjects)
+void qsort_descent_inplace(std::vector<Object_yolov5s>& faceobjects)
 {
     if (faceobjects.empty())
         return;
@@ -67,7 +52,7 @@ void qsort_descent_inplace(std::vector<Object>& faceobjects)
     qsort_descent_inplace(faceobjects, 0, faceobjects.size() - 1);
 }
 
-void nms_sorted_bboxes(const std::vector<Object>& faceobjects, std::vector<int>& picked, float nms_threshold, bool agnostic = false)
+void nms_sorted_bboxes(const std::vector<Object_yolov5s>& faceobjects, std::vector<int>& picked, float nms_threshold, bool agnostic = false)
 {
     picked.clear();
 
@@ -81,12 +66,12 @@ void nms_sorted_bboxes(const std::vector<Object>& faceobjects, std::vector<int>&
 
     for (int i = 0; i < n; i++)
     {
-        const Object& a = faceobjects[i];
+        const Object_yolov5s& a = faceobjects[i];
 
         int keep = 1;
         for (int j = 0; j < (int)picked.size(); j++)
         {
-            const Object& b = faceobjects[picked[j]];
+            const Object_yolov5s& b = faceobjects[picked[j]];
 
             if (!agnostic && a.label != b.label)
                 continue;
@@ -103,12 +88,13 @@ void nms_sorted_bboxes(const std::vector<Object>& faceobjects, std::vector<int>&
             picked.push_back(i);
     }
 }
+
 float sigmoid(float x)
 {
     return static_cast<float>(1.f / (1.f + exp(-x)));
 }
 
- void generate_proposals(const ncnn::Mat& anchors, int stride, const ncnn::Mat& in_pad, const ncnn::Mat& feat_blob, float prob_threshold, std::vector<Object>& objects)
+void generate_proposals(const ncnn::Mat& anchors, int stride, const ncnn::Mat& in_pad, const ncnn::Mat& feat_blob, float prob_threshold, std::vector<Object_yolov5s>& objects)
 {
     const int num_grid_x = feat_blob.w;
     const int num_grid_y = feat_blob.h;
@@ -168,7 +154,7 @@ float sigmoid(float x)
                     float x1 = pb_cx + pb_w * 0.5f;
                     float y1 = pb_cy + pb_h * 0.5f;
 
-                    Object obj;
+                    Object_yolov5s obj;
                     obj.rect.x = x0;
                     obj.rect.y = y0;
                     obj.rect.width = x1 - x0;
@@ -182,23 +168,12 @@ float sigmoid(float x)
         }
     }
 }
-int detect_yolov5(const cv::Mat bgr, std::vector<Object>& objects,std::string param_path)
+
+int detect_yolov5(const ncnn::Net& yolov5, const cv::Mat bgr, std::vector<Object_yolov5s>& objects)
 {
-    ncnn::Net yolov5;
-
-    yolov5.opt.use_vulkan_compute = true;
-    // yolov5.opt.use_bf16_storage = true;
-
-    // original pretrained model from https://github.com/ultralytics/yolov5
-    // the ncnn model https://github.com/nihui/ncnn-assets/tree/master/models
     
-    if (yolov5.load_param(&(param_path+"yolov5s.ncnn.param")[0]))
-        exit(-1);
-    if (yolov5.load_model(&(param_path+"yolov5s.ncnn.bin")[0]))
-        exit(-1);
-
-    const int target_size = 640;
-    const float prob_threshold = 0.25f;
+    const int target_size = 320;
+    const float prob_threshold = 0.50f;
     const float nms_threshold = 0.45f;
 
     int img_w = bgr.cols;
@@ -240,7 +215,7 @@ int detect_yolov5(const cv::Mat bgr, std::vector<Object>& objects,std::string pa
 
     ex.input("in0", in_pad);
 
-    std::vector<Object> proposals;
+    std::vector<Object_yolov5s> proposals;
 
     // anchor setting from yolov5/models/yolov5s.yaml
 
@@ -257,7 +232,7 @@ int detect_yolov5(const cv::Mat bgr, std::vector<Object>& objects,std::string pa
         anchors[4] = 33.f;
         anchors[5] = 23.f;
 
-        std::vector<Object> objects8;
+        std::vector<Object_yolov5s> objects8;
         generate_proposals(anchors, 8, in_pad, out, prob_threshold, objects8);
 
         proposals.insert(proposals.end(), objects8.begin(), objects8.end());
@@ -276,7 +251,7 @@ int detect_yolov5(const cv::Mat bgr, std::vector<Object>& objects,std::string pa
         anchors[4] = 59.f;
         anchors[5] = 119.f;
 
-        std::vector<Object> objects16;
+        std::vector<Object_yolov5s> objects16;
         generate_proposals(anchors, 16, in_pad, out, prob_threshold, objects16);
 
         proposals.insert(proposals.end(), objects16.begin(), objects16.end());
@@ -295,7 +270,7 @@ int detect_yolov5(const cv::Mat bgr, std::vector<Object>& objects,std::string pa
         anchors[4] = 373.f;
         anchors[5] = 326.f;
 
-        std::vector<Object> objects32;
+        std::vector<Object_yolov5s> objects32;
         generate_proposals(anchors, 32, in_pad, out, prob_threshold, objects32);
 
         proposals.insert(proposals.end(), objects32.begin(), objects32.end());
@@ -336,7 +311,7 @@ int detect_yolov5(const cv::Mat bgr, std::vector<Object>& objects,std::string pa
     return 0;
 }
 
-void draw_objects(cv::Mat& image, const std::vector<Object>& objects)
+void draw_objects(cv::Mat& image, const std::vector<Object_yolov5s>& objects)
 {
     static const char* class_names[] = {
         "person", "bicycle", "car", "motorcycle", "airplane", "bus", "train", "truck", "boat", "traffic light",
@@ -354,7 +329,7 @@ void draw_objects(cv::Mat& image, const std::vector<Object>& objects)
 
     for (size_t i = 0; i < objects.size(); i++)
     {
-        const Object& obj = objects[i];
+        const Object_yolov5s& obj = objects[i];
 
         fprintf(stderr, "%d = %.5f at %.2f %.2f %.2f x %.2f\n", obj.label, obj.prob,
                 obj.rect.x, obj.rect.y, obj.rect.width, obj.rect.height);
@@ -385,28 +360,4 @@ void draw_objects(cv::Mat& image, const std::vector<Object>& objects)
     //cv::waitKey(0);
 }
 
-// int main(int argc, char** argv)
-// {
-//     if (argc != 2)
-//     {
-//         fprintf(stderr, "Usage: %s [imagepath]\n", argv[0]);
-//         return -1;
-//     }
 
-//     const char* imagepath = argv[1];
-
-//     cv::Mat m = cv::imread(imagepath, 1);
-//     if (m.empty())
-//     {
-//         fprintf(stderr, "cv::imread %s failed\n", imagepath);
-//         return -1;
-//     }
-
-//     std::vector<Object> objects;
-//     std::string path="~/world/video_algorithm_ncnn_qt/param/";
-//     detect_yolov5(m, objects,path);
-
-//     draw_objects(m, objects);
-
-//     return 0;
-// }

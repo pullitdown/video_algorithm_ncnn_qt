@@ -12,9 +12,12 @@
 #include<QMessageBox>
 #include <QDateTime>
 #include<QTimer>
-#include"yolov5_pnnx.h"
-
-
+#include<yolov5_pnnx.h>
+#include<yolact.h>
+#include<unet.h>
+#include <layer.h>
+#include <net.h>
+;
 /***
  * QWidget *verticalLayoutWidget;
     QVBoxLayout *img_layout;
@@ -45,8 +48,8 @@ private slots:
     
     void on_face_detectiom_bt_clicked();
     void capDetect();
-    // void on_background_blurring_bt_clicked();
-    // void capBlur();
+    void on_background_blurring_bt_clicked();
+    void capBlur();
     // void on_camera_stabilization_bt_clicked();
     // void capStabily()
     // void on_facial_beautification_bt_clicked();
@@ -61,6 +64,15 @@ private:
     cv::VideoCapture depthStream;
     cv::Mat current_img;
     cv::Mat operate_img;
+    cv::Mat background_img;
     int ms;
     QTime *time_count;
+    
+    std::string path;
+    std::string img_path;
+    ncnn::Net yolov5;
+    ncnn::Net yolact;
+    ncnn::Net unet;
+    bool use_yolact;
+    bool use_unet;
 };

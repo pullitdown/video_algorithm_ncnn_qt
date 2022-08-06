@@ -33,32 +33,78 @@
 my_widget::my_widget(QWidget *parent):QMainWindow(parent){
     this->ui=new Ui::main_widget();
     this->time_count=new QTime();
-
+    this->img_path="/home/stepf/world/img/R.png";
+    this->path="/home/stepf/world/video_algorithm_ncnn_qt/param/";
+    this->use_unet=1;
+    this->use_yolact=0;
+    if (this->yolov5.load_param(&(path+"yolov5s.ncnn.param")[0]))
+        exit(-1);
+    if (this->yolov5.load_model(&(path+"yolov5s.ncnn.bin")[0]))
+        exit(-1);
+    this->yolact.opt.use_vulkan_compute = true;
+    if (this->yolact.load_param("/home/stepf/world/video_algorithm_ncnn_qt/param/yolact.param"))
+        exit(-1);
+    if (this->yolact.load_model("/home/stepf/world/video_algorithm_ncnn_qt/param/yolact.bin"))
+        exit(-1);
+    this->unet.opt.use_vulkan_compute = true;
+    if (this->unet.load_param("/home/stepf/world/video_algorithm_ncnn_qt/param/unet.ncnn.param"))
+        exit(-1);
+    if (this->unet.load_model("/home/stepf/world/video_algorithm_ncnn_qt/param/unet.ncnn.bin"))
+        exit(-1);
     ui->setupUi(this);
     this->camera_is_open=0;
     this->ms=10;
     this->func_num=5;
+    this->background_img=cv::imread(img_path,3);
     for(int i=0;i<this->func_num;i++)this->tiktok[i]=new QTimer(this);
     connect(this->tiktok[0], SIGNAL(timeout()), this, SLOT(capPicture()));
     connect(this->ui->open_camera_bt,SIGNAL(clicked()),this,SLOT(on_open_camera_bt_clicked()));
     connect(this->tiktok[1], SIGNAL(timeout()), this, SLOT(capDetect()));
     connect(this->ui->face_detectiom_bt,SIGNAL(clicked()),SLOT(on_face_detectiom_bt_clicked()));
-    // connect(this->ui->background_blurring_bt,SIGNAL(clicked),SLOT(on_background_blurring_bt_clicked));
+    connect(this->tiktok[2], SIGNAL(timeout()), this, SLOT(capBlur()));
+    connect(this->ui->background_blurring_bt,SIGNAL(clicked()),SLOT(on_background_blurring_bt_clicked()));
     // connect(this->ui->camera_stabilization_bt,SIGNAL(clicked),SLOT(on_camera_stabilization_bt_clicked));
     // connect(this->ui->facial_beautification_bt,SIGNAL(clicked),SLOT(on_facial_beautification_bt_clicked));
 }
 
+
+void my_widget::capBlur(){
+    if(this->camera_is_open==0)this->tiktok[2]->stop();
+    
+    this->cap.read(this->current_img);
+    std::vector<Object_yolact> objs;
+    
+    time_count->start();
+    this->operate_img=this->current_img.clone();//memory leak
+    if(this->use_yolact)
+    {
+        detect_yolact(this->yolact,this->current_img,objs);
+        draw_objects(this->operate_img,objs);
+    }
+    else if (this->use_unet)
+    {
+        detect_unet(this->unet,this->operate_img,this->background_img,0.3,1);
+    }
+    this->ms=time_count->elapsed();
+    qobject_cast<QLabel *>(this->ui->img_layout->itemAt(0)->widget())->setPixmap
+         (QPixmap::fromImage(Mat2Image(this->current_img)));
+    qobject_cast<QLabel *>(this->ui->img_layout->itemAt(1)->widget())->setPixmap
+         (QPixmap::fromImage(Mat2Image(this->operate_img))); 
+    this->ui->fps_lb->setText("fps:"+QString::number(1000/this->ms));
+    this->ui->opms_lb->setText("op_ms:"+QString::number(this->ms));
+    this->ui->opname_lb->setText("op_name: backgroud blur");
+}
 
 
 void my_widget::capDetect(){
     if(this->camera_is_open==0)this->tiktok[1]->stop();
     
     this->cap.read(this->current_img);
-    std::vector<Object> objs;
-    std::string path="/home/stepf/world/video_algorithm_ncnn_qt/param/";
+    std::vector<Object_yolov5s> objs;
+    
     time_count->start();
-    detect_yolov5(this->current_img,objs,path);
-    this->operate_img=this->current_img.clone();
+    detect_yolov5(this->yolov5,this->current_img,objs);
+    this->operate_img=this->current_img.clone();//memory leak
     draw_objects(this->operate_img,objs);
     this->ms=time_count->elapsed();
     qobject_cast<QLabel *>(this->ui->img_layout->itemAt(0)->widget())->setPixmap
@@ -68,6 +114,30 @@ void my_widget::capDetect(){
     this->ui->fps_lb->setText("fps:"+QString::number(1000/this->ms));
     this->ui->opms_lb->setText("op_ms:"+QString::number(this->ms));
     this->ui->opname_lb->setText("op_name: detect face");
+}
+
+
+void my_widget::on_background_blurring_bt_clicked(){
+
+    /***
+     * 1.click the botton, compute the time detect algorithm need and start a qtimer
+     * 2.set the bt text to close detect  op name
+     * 3.show the op run time  , fps equels
+     * 4.click again to close the op
+     * ***/
+
+    if(this->camera_is_open==1)
+    {
+        
+        for(int i=0;i<this->func_num;i++)if(this->tiktok[i]->isActive())this->tiktok[i]->stop();
+        QTimer::singleShot(10, this,SLOT(capBlur()));
+        
+        this->tiktok[2]->start(this->ms);
+    }
+    else{
+        //QMessageBox::information(this,tr("warming"),tr("camera close , detect faild."));
+    }
+    
 }
 
 void my_widget::on_face_detectiom_bt_clicked(){

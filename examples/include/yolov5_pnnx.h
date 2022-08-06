@@ -1,3 +1,5 @@
+#ifndef YOLOV_PNNX_H
+#define YOLOV_PNNX_H
 #include <layer.h>
 #include <net.h>
 
@@ -13,18 +15,21 @@
 #include <vector>
 #include <iostream>
 
-struct Object
+struct Object_yolov5s
 {
     cv::Rect_<float> rect;
     int label;
     float prob;
 };
 
-float intersection_area(const Object& a, const Object& b);
-void qsort_descent_inplace(std::vector<Object>& faceobjects, int left, int right);
-void qsort_descent_inplace(std::vector<Object>& faceobjects);
-void nms_sorted_bboxes(const std::vector<Object>& faceobjects, std::vector<int>& picked, float nms_threshold, bool agnostic );
+float intersection_area(const Object_yolov5s& a, const Object_yolov5s& b);
+void qsort_descent_inplace(std::vector<Object_yolov5s>& faceobjects, int left, int right);
+void qsort_descent_inplace(std::vector<Object_yolov5s>& faceobjects);
+void nms_sorted_bboxes(const std::vector<Object_yolov5s>& faceobjects, std::vector<int>& picked, float nms_threshold, bool agnostic );
 float sigmoid(float x);
-void generate_proposals(const ncnn::Mat& anchors, int stride, const ncnn::Mat& in_pad, const ncnn::Mat& feat_blob, float prob_threshold, std::vector<Object>& objects);
-void draw_objects(cv::Mat& image, const std::vector<Object>& objects);
-int detect_yolov5(const cv::Mat bgr, std::vector<Object>& objects,std::string param_path);
+void generate_proposals(const ncnn::Mat& anchors, int stride, const ncnn::Mat& in_pad, const ncnn::Mat& feat_blob, float prob_threshold, std::vector<Object_yolov5s>& objects);
+void draw_objects(cv::Mat& image, const std::vector<Object_yolov5s>& objects);
+
+int detect_yolov5(const ncnn::Net& yolov5, const cv::Mat bgr, std::vector<Object_yolov5s>& objects);
+
+#endif

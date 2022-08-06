@@ -47,6 +47,6 @@ include_directories(
 add_executable(${PRO_NAME} ${DIR_SRCS} ${DIR_UIS})
 
 # 链接Qt5的库
-target_link_libraries(${PRO_NAME} PUBLIC ${OpenCV_LIBS} Qt5::Widgets yolov5s_ ncnn)
+target_link_libraries(${PRO_NAME} PUBLIC ${OpenCV_LIBS} Qt5::Widgets yolov5s_ ncnn  yolact_ unet_)
 #Qt5::Core Qt5::Multimedia Qt5::MultimediaWidgets
 #Multimedia MultimediaWidgets
