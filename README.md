@@ -4,8 +4,8 @@ Multiple video algorithms accelerated with ncnn, interface implemented with qt
 The functions provided are as follows
 1.yolov5 dected face 
 2.the mask of background
-3.Video stabilization
-4.Beauty Camera
+3.style  Migration (plan)
+4.Beauty Camera (plan)
 
 
 
