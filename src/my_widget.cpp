@@ -37,6 +37,7 @@ my_widget::my_widget(QWidget *parent):QMainWindow(parent){
     this->path="/home/stepf/world/video_algorithm_ncnn_qt/param/";
     this->use_unet=1;
     this->use_yolact=0;
+
     if (this->yolov5.load_param(&(path+"yolov5s.ncnn.param")[0]))
         exit(-1);
     if (this->yolov5.load_model(&(path+"yolov5s.ncnn.bin")[0]))
@@ -70,8 +71,12 @@ my_widget::my_widget(QWidget *parent):QMainWindow(parent){
 
 void my_widget::capBlur(){
     if(this->camera_is_open==0)this->tiktok[2]->stop();
-    
-    this->cap.read(this->current_img);
+#if VANQ_USE_UVC
+        this->cap.read(this->current_img);
+#endif
+#if VANQ_USE_ASTRA
+        read_astra();
+#endif
     std::vector<Object_yolact> objs;
     
     time_count->start();
@@ -98,8 +103,12 @@ void my_widget::capBlur(){
 
 void my_widget::capDetect(){
     if(this->camera_is_open==0)this->tiktok[1]->stop();
-    
-    this->cap.read(this->current_img);
+#if VANQ_USE_UVC
+        this->cap.read(this->current_img);
+#endif
+#if VANQ_USE_ASTRA
+        read_astra();
+#endif
     std::vector<Object_yolov5s> objs;
     
     time_count->start();
@@ -166,8 +175,12 @@ void my_widget::on_face_detectiom_bt_clicked(){
 void my_widget::capPicture(){
     
     if(this->camera_is_open==1){
-        
+#if VANQ_USE_UVC
         this->cap.read(this->current_img);
+#endif
+#if VANQ_USE_ASTRA
+        read_astra();
+#endif
         qobject_cast<QLabel *>(this->ui->img_layout->itemAt(0)->widget())->setPixmap
         (QPixmap::fromImage(Mat2Image(this->current_img)));
         
@@ -186,21 +199,35 @@ void my_widget::on_open_camera_bt_clicked()
     {
         this->camera_is_open=1;
         qobject_cast<QToolButton *>(ui->button_layout->itemAt(0)->widget())->setText("close camera");
-        //  camera->start();//启动摄像头
+
+#if VANQ_USE_UVC
         this->cap.open(0,cv::CAP_V4L2 );
         int fps = cap.get(cv::CAP_PROP_FPS);
         if(!cap.isOpened()) {
             std::cout<<"cannot open camera"<<std::endl;
             return;
         }
+#endif
+
+#if VANQ_USE_ASTRA
+        this->cap_astra.my_astra_init();
+        
+#endif
         this->tiktok[0]->start(this->ms);
     }
     else{
-        this->tiktok[0]->stop();
+        
+#if VANQ_USE_UVC
         this->cap.release();
+#endif
+
+#if VANQ_USE_ASTRA
+        this->cap_astra.my_astra_terminate();
+#endif
+        this->tiktok[0]->stop();
         qobject_cast<QLabel *>(this->ui->img_layout->itemAt(0)->widget())->setText("video closed");
         qobject_cast<QToolButton *>(this->ui->button_layout->itemAt(0)->widget())->setText("open camera");
-       this->camera_is_open=0; 
+        this->camera_is_open=0; 
     }
 }
 

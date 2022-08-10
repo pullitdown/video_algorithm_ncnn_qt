@@ -1,0 +1,10 @@
+#ifndef __OPTION_H__
+#define __OPTION_H__
+
+// version variable that will be substituted by cmake
+// This shows an example using the @ variable type
+#cmakedefine01 VANQ_USE_UVC
+#cmakedefine01 VANQ_USE_ASTRA
+
+
+#endif

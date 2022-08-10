@@ -1,0 +1,1975 @@
+[
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Ivideo_algorithm_ncnn_qt_autogen/include -I../examples -I../ColorReaderEventCPP -I../examples/include -I../ncnn/src -Incnn/src -I/home/stepf/world/AstraSDK-v2.1.3-Ubuntu18.04/include -isystem /usr/local/include/opencv -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIE   -fPIC -fopenmp -pthread -o CMakeFiles/video_algorithm_ncnn_qt.dir/video_algorithm_ncnn_qt_autogen/mocs_compilation.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/video_algorithm_ncnn_qt_autogen/mocs_compilation.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/video_algorithm_ncnn_qt_autogen/mocs_compilation.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Ivideo_algorithm_ncnn_qt_autogen/include -I../examples -I../ColorReaderEventCPP -I../examples/include -I../ncnn/src -Incnn/src -I/home/stepf/world/AstraSDK-v2.1.3-Ubuntu18.04/include -isystem /usr/local/include/opencv -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIE   -fPIC -fopenmp -pthread -o CMakeFiles/video_algorithm_ncnn_qt.dir/src/main.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/src/main.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/src/main.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Ivideo_algorithm_ncnn_qt_autogen/include -I../examples -I../ColorReaderEventCPP -I../examples/include -I../ncnn/src -Incnn/src -I/home/stepf/world/AstraSDK-v2.1.3-Ubuntu18.04/include -isystem /usr/local/include/opencv -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g -fPIE   -fPIC -fopenmp -pthread -o CMakeFiles/video_algorithm_ncnn_qt.dir/src/my_widget.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/src/my_widget.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/src/my_widget.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/allocator.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/allocator.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/allocator.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/benchmark.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/benchmark.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/benchmark.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/blob.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/blob.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/blob.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/c_api.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/c_api.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/c_api.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/command.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/command.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/command.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/cpu.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/cpu.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/cpu.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/datareader.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/datareader.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/datareader.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/gpu.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/gpu.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/gpu.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/mat.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/mat.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/mat.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/mat_pixel.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/mat_pixel.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/mat_pixel_affine.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/mat_pixel_affine.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_drawing.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/mat_pixel_drawing.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/mat_pixel_drawing.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/mat_pixel_resize.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/mat_pixel_resize.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/mat_pixel_rotate.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/mat_pixel_rotate.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/modelbin.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/modelbin.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/modelbin.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/net.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/net.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/net.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/option.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/option.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/option.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/paramdict.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/paramdict.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/paramdict.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/pipeline.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/pipeline.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/pipeline.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/pipelinecache.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/pipelinecache.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/simpleocv.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/simpleocv.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/simpleocv.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/simpleomp.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/simpleomp.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/simpleomp.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/simplestl.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/simplestl.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/simplestl.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/absval.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/absval.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/batchnorm.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/batchnorm.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/batchnorm_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/batchnorm_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/batchnorm_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/batchnorm_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/batchnorm_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/batchnorm_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/batchnorm_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/batchnorm_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/batchnorm_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/bias.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/bias.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bias_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/bias_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/bias_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/bias_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/bias_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/bias_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/bias_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bias_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/bias_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/bias_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/bnll.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/bnll.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/bnll_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/bnll_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/bnll_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/bnll_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/bnll_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/bnll_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/bnll_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/bnll_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/bnll_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/concat.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/concat.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/concat_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/concat_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/concat_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/concat_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/concat_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/concat_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/concat_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/concat_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/concat_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/concat_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/convolution.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/convolution.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/convolution_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/convolution_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolution_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolution_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolution_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolution_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolution_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolution_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -mavx512vnni -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx512vnni.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/convolution_x86_avx512vnni.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/convolution_x86_avx512vnni.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx2 -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx2.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/convolution_x86_avx2.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/convolution_x86_avx2.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mxop -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_xop.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/convolution_x86_xop.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/convolution_x86_xop.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/crop.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/crop.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/crop_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/crop_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/crop_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/crop_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/crop_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/crop_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/crop_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/crop_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/crop_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deconvolution.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deconvolution.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/deconvolution_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/deconvolution_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/deconvolution_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/deconvolution_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/deconvolution_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/deconvolution_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolution_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/deconvolution_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/deconvolution_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/dropout.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/dropout.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/dropout_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/dropout_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/dropout_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/dropout_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/dropout_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/dropout_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dropout_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/dropout_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/dropout_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/eltwise.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/eltwise.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/eltwise_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/eltwise_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/eltwise_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/eltwise_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/eltwise_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/eltwise_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/eltwise_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/eltwise_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/elu.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/elu.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/embed.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/embed.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/exp.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/exp.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/flatten.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/flatten.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/flatten_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/flatten_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/flatten_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/flatten_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/flatten_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/flatten_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/flatten_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/flatten_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/innerproduct.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/innerproduct.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/innerproduct_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/innerproduct_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/innerproduct_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/innerproduct_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/innerproduct_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/innerproduct_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/innerproduct_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/innerproduct_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_f16c.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/innerproduct_x86_f16c.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/innerproduct_x86_f16c.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/input.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/input.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/input.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/log.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/log.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/log.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/lrn.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/lrn.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/lrn_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/lrn_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/lrn_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/lrn_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/lrn_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/lrn_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lrn_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/lrn_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/lrn_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/memorydata.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/memorydata.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/mvn.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/mvn.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/pooling.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/pooling.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/pooling_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/pooling_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/pooling_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/pooling_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/pooling_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/pooling_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/pooling_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/pooling_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/power.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/power.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/power.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/prelu.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/prelu.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/prelu_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/prelu_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/prelu_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/prelu_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/prelu_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/prelu_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/prelu_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/prelu_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/prelu_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/proposal.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/proposal.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/reduction.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/reduction.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/relu.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/relu.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/relu_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/relu_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/relu_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/relu_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/relu_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/relu_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/relu_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/relu_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/relu_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/reshape.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/reshape.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/reshape_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/reshape_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/reshape_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/reshape_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/reshape_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/reshape_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/reshape_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/reshape_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/reshape_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/roipooling.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/roipooling.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/scale.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/scale.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/scale_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/scale_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/scale_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/scale_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/scale_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/scale_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/scale_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/scale_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/scale_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/sigmoid.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/sigmoid.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/sigmoid_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/sigmoid_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/sigmoid_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/sigmoid_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/sigmoid_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/sigmoid_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/sigmoid_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/sigmoid_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/sigmoid_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/slice.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/slice.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/slice_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/slice_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/slice_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/slice_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/slice_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/slice_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/slice_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/slice_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/slice_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/slice_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/softmax.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/softmax.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/softmax_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/softmax_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/softmax_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/softmax_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/softmax_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/softmax_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/softmax_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/softmax_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/softmax_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/split.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/split.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/split.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/tanh.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/tanh.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/tanh_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/tanh_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/tanh_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/tanh_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/tanh_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/tanh_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/tanh_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/tanh_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/tanh_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/threshold.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/threshold.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/tile.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/tile.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/tile.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/rnn.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/rnn.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/rnn.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/lstm.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/lstm.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/lstm.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/lstm_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/lstm_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/lstm_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/lstm_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/lstm_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/lstm_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/lstm_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/lstm_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/lstm_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/binaryop.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/binaryop.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/binaryop_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/binaryop_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/binaryop_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/binaryop_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/binaryop_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/binaryop_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/binaryop_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/binaryop_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/binaryop_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/unaryop.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/unaryop.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/unaryop_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/unaryop_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/unaryop_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/unaryop_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/unaryop_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/unaryop_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/unaryop_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/unaryop_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/unaryop_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/convolutiondepthwise.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/convolutiondepthwise.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolutiondepthwise_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolutiondepthwise_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolutiondepthwise_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolutiondepthwise_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolutiondepthwise_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolutiondepthwise_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/padding.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/padding.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/padding_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/padding_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/padding_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/padding_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/padding_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/padding_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/padding_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/padding_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/padding_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/squeeze.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/squeeze.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/expanddims.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/expanddims.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/normalize.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/normalize.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/permute.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/permute.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/priorbox.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/priorbox.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/detectionoutput.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/detectionoutput.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/interp.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/interp.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/interp_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/interp_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/interp_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/interp_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/interp_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/interp_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/interp_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/interp_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/interp_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/interp_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deconvolutiondepthwise.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deconvolutiondepthwise.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/deconvolutiondepthwise_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/deconvolutiondepthwise_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/deconvolutiondepthwise_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/deconvolutiondepthwise_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/deconvolutiondepthwise_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/deconvolutiondepthwise_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/deconvolutiondepthwise_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/deconvolutiondepthwise_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/deconvolutiondepthwise_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/shufflechannel.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/shufflechannel.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/instancenorm.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/instancenorm.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/clip.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/clip.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/clip_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/clip_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/clip_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/clip_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/clip_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/clip_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/clip_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/clip_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/clip_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/clip_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/reorg.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/reorg.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/yolodetectionoutput.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/yolodetectionoutput.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/quantize.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/quantize.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/quantize_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/quantize_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/quantize_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/quantize_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/quantize_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/quantize_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/quantize_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/quantize_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/quantize_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/dequantize.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/dequantize.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/dequantize_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/dequantize_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/dequantize_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/dequantize_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/dequantize_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/dequantize_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/dequantize_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/dequantize_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/dequantize_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/yolov3detectionoutput.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/yolov3detectionoutput.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/yolov3detectionoutput_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/yolov3detectionoutput_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/yolov3detectionoutput_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/yolov3detectionoutput_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/yolov3detectionoutput_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/yolov3detectionoutput_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/yolov3detectionoutput_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/yolov3detectionoutput_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/yolov3detectionoutput_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/psroipooling.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/psroipooling.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/roialign.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/roialign.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/roialign.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/roialign_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/roialign_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/roialign_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/roialign_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/roialign_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/roialign_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/roialign_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/roialign_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/roialign_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/packing.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/packing.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/packing_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/packing_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/packing_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/packing_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/packing_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/packing_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/packing_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/packing_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/packing_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/requantize.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/requantize.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/requantize_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/requantize_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/requantize_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/requantize_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/requantize_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/requantize_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/requantize_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/requantize_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/requantize_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/cast.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/cast.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/cast_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/cast_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/cast_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/cast_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/cast_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/cast_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/cast_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/cast_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_f16c.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/cast_x86_f16c.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/cast_x86_f16c.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/hardsigmoid.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/hardsigmoid.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/hardsigmoid_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/hardsigmoid_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/hardsigmoid_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/hardsigmoid_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/hardsigmoid_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/hardsigmoid_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardsigmoid_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/hardsigmoid_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/hardsigmoid_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/selu.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/selu.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/selu.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/hardswish.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/hardswish.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/hardswish.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/hardswish_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/hardswish_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/hardswish_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/hardswish_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/hardswish_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/hardswish_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/hardswish_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/hardswish_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/hardswish_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/noop.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/noop.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/noop.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/pixelshuffle.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/pixelshuffle.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/pixelshuffle.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/deepcopy.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deepcopy.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deepcopy.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/mish.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/mish.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/mish.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/mish_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/mish_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/mish_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/mish_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/mish_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/mish_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/mish_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/mish_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/mish_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/mish_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/statisticspooling.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/statisticspooling.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/statisticspooling.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/swish.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/swish.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/swish.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/swish_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/swish_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/swish_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/swish_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/swish_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/swish_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/swish_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/swish_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/swish_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/swish_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/gemm.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/gemm.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/gemm.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/groupnorm.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/groupnorm.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/groupnorm.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/layernorm.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/layernorm.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/layernorm.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/softplus.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/softplus.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/softplus.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/gru.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/gru.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/gru.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/multiheadattention.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/multiheadattention.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/multiheadattention.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/gelu.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/gelu.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/gelu.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/convolution1d.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/convolution1d.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/convolution1d.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/convolution1d_x86.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/x86/convolution1d_x86.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx512.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolution1d_x86_avx512.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolution1d_x86_avx512.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -mfma -mf16c -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_fma.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolution1d_x86_fma.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolution1d_x86_fma.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -mavx -o ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution1d_x86_avx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolution1d_x86_avx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/build/ncnn/src/layer/x86/convolution1d_x86_avx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/pooling1d.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/pooling1d.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/pooling1d.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise1d.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/convolutiondepthwise1d.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/convolutiondepthwise1d.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/convolution3d.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/convolution3d.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/convolution3d.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise3d.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/convolutiondepthwise3d.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/convolutiondepthwise3d.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/pooling3d.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/pooling3d.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/pooling3d.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/matmul.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/matmul.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/matmul.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolution1d.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deconvolution1d.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deconvolution1d.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise1d.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deconvolutiondepthwise1d.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deconvolutiondepthwise1d.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolution3d.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deconvolution3d.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deconvolution3d.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise3d.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deconvolutiondepthwise3d.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/deconvolutiondepthwise3d.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dncnn_EXPORTS -I../ncnn/src/layer/x86 -I../ncnn/src -Incnn/src -I../ncnn/src/layer  -g -fPIC   -Wall -Wextra -Wno-unused-function -fvisibility=hidden -fvisibility-inlines-hidden -msse2 -msse -fopenmp -pthread -o ncnn/src/CMakeFiles/ncnn.dir/layer/einsum.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/einsum.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/src/layer/einsum.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/src -Incnn/src  -g -fPIE   -fopenmp -pthread -o ncnn/benchmark/CMakeFiles/benchncnn.dir/benchncnn.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/benchmark/benchncnn.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/benchmark/benchncnn.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/mobilenetv2ssdlite.dir/mobilenetv2ssdlite.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/mobilenetv2ssdlite.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/mobilenetv2ssdlite.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/yolov5_pnnx.dir/yolov5_pnnx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov5_pnnx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov5_pnnx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/squeezenet_c_api.dir/squeezenet_c_api.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/squeezenet_c_api.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/squeezenet_c_api.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/yolov7.dir/yolov7.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov7.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov7.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/yolox.dir/yolox.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolox.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolox.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/mobilenetssd.dir/mobilenetssd.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/mobilenetssd.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/mobilenetssd.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/yolov7_pnnx.dir/yolov7_pnnx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov7_pnnx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov7_pnnx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/yolov3.dir/yolov3.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov3.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov3.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/fasterrcnn.dir/fasterrcnn.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/fasterrcnn.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/fasterrcnn.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/rvm.dir/rvm.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/rvm.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/rvm.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/yolov2.dir/yolov2.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov2.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov2.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/scrfd.dir/scrfd.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/scrfd.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/scrfd.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/scrfd_crowdhuman.dir/scrfd_crowdhuman.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/scrfd_crowdhuman.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/scrfd_crowdhuman.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/rfcn.dir/rfcn.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/rfcn.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/rfcn.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/squeezenet.dir/squeezenet.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/squeezenet.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/squeezenet.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/squeezenetssd.dir/squeezenetssd.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/squeezenetssd.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/squeezenetssd.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/shufflenetv2.dir/shufflenetv2.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/shufflenetv2.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/shufflenetv2.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/simplepose.dir/simplepose.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/simplepose.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/simplepose.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/retinaface.dir/retinaface.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/retinaface.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/retinaface.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/peleenetssd_seg.dir/peleenetssd_seg.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/peleenetssd_seg.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/peleenetssd_seg.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/yolact.dir/yolact.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolact.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolact.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/nanodet.dir/nanodet.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/nanodet.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/nanodet.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/yolov5.dir/yolov5.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov5.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov5.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/nanodetplus_pnnx.dir/nanodetplus_pnnx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/nanodetplus_pnnx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/nanodetplus_pnnx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/yolov4.dir/yolov4.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov4.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/yolov4.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/examples/../src -Incnn/examples/../src -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o ncnn/examples/CMakeFiles/p2pnet.dir/p2pnet.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/p2pnet.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/examples/p2pnet.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++11 -o ncnn/tools/CMakeFiles/ncnnmerge.dir/ncnnmerge.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/tools/ncnnmerge.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/tools/ncnnmerge.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/src -Incnn/src  -g -fPIE   -fopenmp -pthread -std=gnu++11 -o ncnn/tools/CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/tools/ncnnoptimize.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/tools/ncnnoptimize.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/src -Incnn/src  -g -fPIE   -fopenmp -pthread -std=gnu++11 -o ncnn/tools/CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/tools/ncnn2mem.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/tools/ncnn2mem.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ncnn/src -Incnn/src  -g -fPIE   -fopenmp -pthread -std=gnu++11 -o ncnn/tools/quantize/CMakeFiles/ncnn2int8.dir/ncnn2int8.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/tools/quantize/ncnn2int8.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/tools/quantize/ncnn2int8.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -DUSE_LOCAL_IMREADWRITE -I../ncnn/src -Incnn/src  -g -fPIE   -fopenmp -pthread -std=gnu++11 -o ncnn/tools/quantize/CMakeFiles/ncnn2table.dir/ncnn2table.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/tools/quantize/ncnn2table.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/tools/quantize/ncnn2table.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -DUSE_LOCAL_IMREADWRITE -I../ncnn/src -Incnn/src  -g -fPIE   -fopenmp -pthread -std=gnu++11 -o ncnn/tools/quantize/CMakeFiles/ncnn2table.dir/imreadwrite.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ncnn/tools/quantize/imreadwrite.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ncnn/tools/quantize/imreadwrite.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../examples/include -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o examples/CMakeFiles/test.dir/src/main.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/examples/src/main.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/examples/src/main.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../examples/include -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o examples/CMakeFiles/test.dir/src/unet.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/examples/src/unet.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/examples/src/unet.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../examples/include -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIE   -fopenmp -pthread -o examples/CMakeFiles/test.dir/src/yolov5_pnnx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/examples/src/yolov5_pnnx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/examples/src/yolov5_pnnx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dunet__EXPORTS -I../examples/include -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIC   -fopenmp -pthread -o examples/CMakeFiles/unet_.dir/src/unet.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/examples/src/unet.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/examples/src/unet.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dyolact__EXPORTS -I../examples/include -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIC   -fopenmp -pthread -o examples/CMakeFiles/yolact_.dir/src/yolact.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/examples/src/yolact.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/examples/src/yolact.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dyolov5s__EXPORTS -I../examples/include -I../ncnn/src -Incnn/src -isystem /usr/local/include/opencv  -g -fPIC   -fopenmp -pthread -o examples/CMakeFiles/yolov5s_.dir/src/yolov5_pnnx.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/examples/src/yolov5_pnnx.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/examples/src/yolov5_pnnx.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ColorReaderEventCPP -I/home/stepf/world/AstraSDK-v2.1.3-Ubuntu18.04/include -isystem /usr/local/include/opencv  -g   -o ColorReaderEventCPP/CMakeFiles/test_.dir/mian.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ColorReaderEventCPP/mian.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ColorReaderEventCPP/mian.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++   -I../ColorReaderEventCPP -I/home/stepf/world/AstraSDK-v2.1.3-Ubuntu18.04/include -isystem /usr/local/include/opencv  -g   -o ColorReaderEventCPP/CMakeFiles/test_.dir/astra_cap.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ColorReaderEventCPP/astra_cap.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ColorReaderEventCPP/astra_cap.cpp"
+},
+
+{
+  "directory": "/home/stepf/world/video_algorithm_ncnn_qt/build",
+  "command": "/usr/bin/g++  -Dastra__EXPORTS -I../ColorReaderEventCPP -I/home/stepf/world/AstraSDK-v2.1.3-Ubuntu18.04/include -isystem /usr/local/include/opencv  -g -fPIC   -o ColorReaderEventCPP/CMakeFiles/astra_.dir/astra_cap.cpp.o -c /home/stepf/world/video_algorithm_ncnn_qt/ColorReaderEventCPP/astra_cap.cpp",
+  "file": "/home/stepf/world/video_algorithm_ncnn_qt/ColorReaderEventCPP/astra_cap.cpp"
+}
+]

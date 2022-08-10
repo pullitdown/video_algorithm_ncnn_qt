@@ -1,0 +1,74 @@
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX_VNNI failed with the following output:
+Change Dir: /home/stepf/world/video_algorithm_ncnn_qt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b83a4 && [1/2] Building CXX object CMakeFiles/cmTC_b83a4.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_b83a4.dir/src.cxx.o 
+/usr/bin/g++    -DNCNN_COMPILER_SUPPORT_X86_AVX_VNNI -mfma -mf16c -mavx2 -mavxvnni -o CMakeFiles/cmTC_b83a4.dir/src.cxx.o -c src.cxx
+g++: error: unrecognized command line option ‘-mavxvnni’; did you mean ‘-mavx512vnni’?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <immintrin.h>
+int main() { __m256i _s, _a, _b; _s = _mm256_dpwssd_epi32(_s, _a, _b); return 0; }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX512_BF16 failed with the following output:
+Change Dir: /home/stepf/world/video_algorithm_ncnn_qt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c8428 && [1/2] Building CXX object CMakeFiles/cmTC_c8428.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_c8428.dir/src.cxx.o 
+/usr/bin/g++    -DNCNN_COMPILER_SUPPORT_X86_AVX512_BF16 -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512bf16 -o CMakeFiles/cmTC_c8428.dir/src.cxx.o -c src.cxx
+g++: error: unrecognized command line option ‘-mavx512bf16’; did you mean ‘-mavx512bw’?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <immintrin.h>
+int main() { __m256bh _s; __m512bh _a, _b; _s = _mm512_cvtneps_pbh(_mm512_dpbf16_ps(_mm512_cvtpbh_ps(_s), _a, _b)); return 0; }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX512_FP16 failed with the following output:
+Change Dir: /home/stepf/world/video_algorithm_ncnn_qt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0a95a && [1/2] Building CXX object CMakeFiles/cmTC_0a95a.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_0a95a.dir/src.cxx.o 
+/usr/bin/g++    -DNCNN_COMPILER_SUPPORT_X86_AVX512_FP16 -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512fp16 -o CMakeFiles/cmTC_0a95a.dir/src.cxx.o -c src.cxx
+g++: error: unrecognized command line option ‘-mavx512fp16’; did you mean ‘-mavx512f’?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <immintrin.h>
+int main() { __m512h _s, _a, _b; _s = _mm512_fmadd_ph(_s, _a, _b); __m512 _s2; _s2 = _mm512_cvtxph_ps(_mm512_cvtxps_ph(_s2)); return 0; }
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/stepf/world/video_algorithm_ncnn_qt/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_64f48 && [1/2] Building C object CMakeFiles/cmTC_64f48.dir/src.c.o
+[2/2] Linking C executable cmTC_64f48
+FAILED: cmTC_64f48 
+: && /usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD  -rdynamic CMakeFiles/cmTC_64f48.dir/src.c.o  -o cmTC_64f48   && :
+/usr/bin/ld: CMakeFiles/cmTC_64f48.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

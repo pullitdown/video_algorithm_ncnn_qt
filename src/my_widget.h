@@ -17,7 +17,27 @@
 #include<unet.h>
 #include <layer.h>
 #include <net.h>
-;
+
+// #include"option.h"
+#define VANQ_USE_ASTRA 1
+#define VANQ_USE_UVCSWAPPER 0
+#define VANQ_USE_UVC 0
+
+
+#if VANQ_USE_ASTRA
+    #include<astra_cap.h>
+#endif
+
+
+#if VANQ_USE_UVCSWAPPER
+
+#include "OniSampleUtilities.h"
+#include "UVC_Swapper.h"
+#include "UVCSwapper.h"
+#include "OBTypes.h"
+#include "ObCommon.h"
+#endif
+
 /***
  * QWidget *verticalLayoutWidget;
     QVBoxLayout *img_layout;
@@ -55,24 +75,57 @@ private slots:
     // void on_facial_beautification_bt_clicked();
     // void capBeautify();
 private:
-    bool camera_is_open;
+    
     Ui::main_widget *ui;
+
+
+    /***
+     * time counter
+    ***/
     QTimer* (tiktok)[5];
     int func_num;
+    int ms;
+    QTime *time_count;
+
+    /*cap */
+#if VANQ_USE_UVC
     cv::VideoCapture cap;
     cv::VideoCapture colorStream;
     cv::VideoCapture depthStream;
+    
+#endif
+
+#if VANQ_USE_ASTRA
+    astra::astra_capture cap_astra;
+    void read_astra(){
+        // if(this->current_img.cols!=480||this->current_img.rows!=640)
+        // cv::resize(this->current_img,this->current_img,cv::Size(640,480));
+        // uchar * ptr=this->current_img.data;
+        uchar* DD=this->cap_astra.my_astra_update();
+        std::cout<<DD[0]<<std::endl;
+        // memcpy(ptr, DD, 640*480*3);
+    }
+#endif
+
+#if VANQ_USE_UVCWAPPER
+
+#endif
+    bool camera_is_open;
+    /*picture*/
     cv::Mat current_img;
     cv::Mat operate_img;
     cv::Mat background_img;
-    int ms;
-    QTime *time_count;
-    
+
+    /*path*/
     std::string path;
     std::string img_path;
+
+    /*net*/
     ncnn::Net yolov5;
     ncnn::Net yolact;
     ncnn::Net unet;
     bool use_yolact;
     bool use_unet;
+    
+
 };

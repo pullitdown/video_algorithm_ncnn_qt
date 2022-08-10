@@ -28,6 +28,8 @@ aux_source_directory(./ui DIR_UIS)
 
 add_subdirectory(ncnn)
 add_subdirectory(examples)
+add_subdirectory(ColorReaderEventCPP)
+
 find_package(Qt5 COMPONENTS Widgets Core   REQUIRED)
 find_package(OpenCV  REQUIRED)
 
@@ -36,17 +38,22 @@ find_package(OpenCV  REQUIRED)
 # ui2header(DIR_SRCS ${DIR_UIS})
 # message(${DIR_SRCS})
 
+configure_file(src/option.h.in ${PROJECT_BINARY_DIR}/option.h)
 
 include_directories(
         ${OpenCV_INCLUDE_DIRS}
-        ${examples_INCLUDE_DIRS}
+        ${examples_SOURCE_DIR}
+        ${ColorReaderEventCPP_SOURCE_DIR}
         )
+
+option(VANQ_USE_ASTRA "the video device type is astra" OFF)
+option(VANQ_USE_UVC "the video device type is uvc" ON)
 
 
 # 设置可执行文件
 add_executable(${PRO_NAME} ${DIR_SRCS} ${DIR_UIS})
 
 # 链接Qt5的库
-target_link_libraries(${PRO_NAME} PUBLIC ${OpenCV_LIBS} Qt5::Widgets yolov5s_ ncnn  yolact_ unet_)
+target_link_libraries(${PRO_NAME} PUBLIC ${OpenCV_LIBS} Qt5::Widgets yolov5s_ ncnn  yolact_ unet_ astra_)
 #Qt5::Core Qt5::Multimedia Qt5::MultimediaWidgets
 #Multimedia MultimediaWidgets

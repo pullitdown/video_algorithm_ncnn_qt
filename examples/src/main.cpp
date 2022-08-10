@@ -70,7 +70,10 @@ int show_unet()
 
     // original pretrained model from https://github.com/ultralytics/yolov5
     // the ncnn model https://github.com/nihui/ncnn-assets/tree/master/models
+    unet.opt.use_bf16_storage = true;
+    // unet.opt.use_packing_layout = true;
     
+    unet.opt.use_fp16_packed = false;
     if (unet.load_param(&(path+"unet.ncnn.param")[0]))
         exit(-1);
     if (unet.load_model(&(path+"unet.ncnn.bin")[0]))
